@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Dynamic;
 using System.Globalization;
 
 namespace aula42
@@ -8,7 +7,7 @@ namespace aula42
     {
         static void Main(string[] args)
         {
-            
+
             Console.WriteLine("Entre os dados do produto");
             Console.Write("Nome: ");
             string nome = Console.ReadLine();
@@ -20,7 +19,7 @@ namespace aula42
             Produto p = new Produto(nome, preco, quantidade);
 
             Console.WriteLine();
-            Console.WriteLine("Dados do produto: "  + p);
+            Console.WriteLine("Dados do produto: " + p);
 
             Console.WriteLine();
             Console.Write("Digite o número de produtos a ser adicionados: ");

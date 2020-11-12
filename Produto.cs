@@ -1,5 +1,4 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 
 namespace aula42
 {
@@ -19,12 +18,10 @@ namespace aula42
         {
             return Preco * Quantidade;
         }
-
         public void AdicionarProdutos(int quantidade)
         {
             Quantidade += quantidade;
         }
-        
         public void RemoverProdutos(int quantidade)
         {
             Quantidade -= quantidade;
