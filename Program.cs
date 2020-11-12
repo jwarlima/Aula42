@@ -13,10 +13,13 @@ namespace aula42
             string nome = Console.ReadLine();
             Console.Write("Preço: ");
             double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            Console.Write("Quantidade: ");
-            int quantidade = int.Parse(Console.ReadLine());
+            //Console.Write("Quantidade: ");
+            //int quantidade = int.Parse(Console.ReadLine());
 
-            Produto p = new Produto(nome, preco, quantidade);
+            //Produto p = new Produto(); //Contrutor padrão
+            Produto p = new Produto(nome, preco); //Construtor com 2 parâmetros
+            //Produto p = new Produto(nome, preco, quantidade); //Construtor com 3 parâmetros
+
 
             Console.WriteLine();
             Console.WriteLine("Dados do produto: " + p);

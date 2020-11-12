@@ -8,12 +8,24 @@ namespace aula42
         public double Preco;
         public int Quantidade;
 
+        public Produto()
+        {
+            //Lógica aqui
+        }
+
+        public Produto(string nome, double preco)
+        {
+            Nome = nome;
+            Preco = preco;
+            Quantidade = 0;
+        }
         public Produto(string nome, double preco, int quantidade)
         {
             Nome = nome;
             Preco = preco;
             Quantidade = quantidade;
         }
+
         public double ValorTotalEmEstoque()
         {
             return Preco * Quantidade;
