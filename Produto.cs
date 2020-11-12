@@ -24,7 +24,7 @@ namespace aula42
         {
             Quantidade += quantidade;
         }
-
+        
         public void RemoverProdutos(int quantidade)
         {
             Quantidade -= quantidade;
